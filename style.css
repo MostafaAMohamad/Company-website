@@ -1,0 +1,315 @@
+:root {
+  --main-color: #f25454 !important;
+}
+.navbar{
+  border-bottom: 1px solid white;
+  height: 80px;
+  align-items: center;
+  
+}
+.navbar .container{
+  
+  margin: auto;
+}
+.navbar .container ul li :hover {
+  color: #f25454 !important;
+}
+.navbar .container ul li .active {
+  color: #f25454 !important;
+}
+
+.navbar .container i:hover {
+  color: var(--main-color);
+}
+#home h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+#home button {
+  border: 1px solid white;
+  width: 50px;
+  height: 40px;
+}
+.carousel-control-next {
+  position: absolute;
+  top: 60%;
+  left: -0.1%;
+}
+.carousel-control-prev {
+  position: absolute;
+  top: 55.5%;
+  left: -0.1%;
+}
+.carousel-control-next,
+.carousel-control-prev :hover {
+  color: var(--main-color);
+}
+
+#home .settings {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.643);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .settings:hover {
+  background-color: rgba(0, 0, 0, 0.477);
+}
+.title{
+    position: relative;
+    width: 30%;
+    
+}
+ .title h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #28282813;
+}
+ .title h3 {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  bottom: 0% !important;
+  color: #282828 !important;
+  
+}
+ .title h3::after{
+    content: "";
+    width: 40%;
+    position: absolute;
+    top: 115%;
+    left: 30%;
+    background-color: #282828;;
+    height: 1px;
+    
+}
+.container {
+font-size: 18px;
+color: #999;
+margin-bottom: 70px;
+}
+
+.progress{
+ 
+  height: 4px;
+}
+.progress-bar{
+  color: var(--main-color);
+}
+
+.card-img-top{
+  overflow: hidden !important;
+  transition: transform 1s !important;
+}
+.card h5{
+  color: #282828
+}
+.card .layer{
+  opacity: 0;
+  transition: opacity 0.5s;
+
+  
+}
+.card .layer:hover {
+  opacity: 100 !important;
+  background-color: #f2545487;
+
+}
+.card:hover img{
+  transform: scale(1.2);
+
+  
+}
+.card:hover h5{
+  color: var(--main-color) !important;
+}
+ .text{
+    height: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+  }
+  .link{
+    width: 15%;
+    color: white;
+    height: 2.5rem;
+  
+  }
+  .link a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+
+    color: white;
+  }
+  #services{
+    background-color: #fafafa;
+  }
+  #services h3{
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+
+  }
+  #services p{
+    margin-bottom: 0;
+    color: #666;
+  }
+  #services i{
+    font-size: 32px;
+    color: var(--main-color);
+  }
+  #contact{
+    background-color: #fafafa;
+  }
+  #contact i{
+    font-size: 40px;
+    text-align: center;
+  }
+  #contact h3{
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+  }
+  #contact h4{
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #contact p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px
+  }
+  #contact .content1:hover h4{
+    color: var(--main-color);
+  }
+  #contact .content2:hover h4{
+    color: var(--main-color);
+  }
+  #contact .content3:hover h4{
+    color: var(--main-color);
+  }
+  #contact .content3 p:hover{
+    color: var(--main-color);
+  }
+  #contact .field i{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 900;
+    color: inherit;
+    padding-right: 5px;
+  }
+  #contact .field button{
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    border-width: 0;
+    background-color: #f25454;
+    color:#fff;
+    font-size: 14px;
+    width: 30%;
+  }
+  #contact .field button:hover{
+    background-color: #f25454a7;
+  }
+  footer{
+    background-color: #222 !important;
+    background-image: url(images/dotted-map.png);
+  }
+  footer h5{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  footer p{
+    color: #b0b0b0;
+    font-size: 14px;
+    line-height: 1.75em;
+  }
+  footer li{
+    list-style: none;
+    box-sizing: border-box;
+    display: list-item;
+  }
+  footer a{
+    text-decoration: none ;
+    color: #b0b0b0;
+    font-size: 14px;
+    line-height: 1.75em;
+  }
+  footer a:hover{
+    color: var(--main-color);
+  }
+  footer .tags a{
+    border: 1px solid #b0b0b0;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #b0b0b0;
+    background-color: transparent;
+    transition:  border,color 1s;
+  }
+  footer .tags a:hover{
+    border: 1px solid #f25454;
+    color: #f25454;
+  }
+footer .arrow{
+  width: 40px;
+  height: 30px;
+  bottom: 90%;
+  
+  color: white;
+  background-color: #f25454c6;
+}
+footer .arrow a{
+  color: white;
+  font-size: 25px;
+  align-items: center ;
+}
+.social{
+  height: 20%;
+}
+.social i:hover{
+  color:var(--main-color);
+}
+#client p{
+  font-size: 25px;
+  line-height: 1.5em;
+  color: #666;
+}
+#client .row h5{
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+  font-weight: 600;
+}
+#client .row span{
+  display: block;
+    color: #666;
+    margin-top: 7px;
+    line-height: 1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
